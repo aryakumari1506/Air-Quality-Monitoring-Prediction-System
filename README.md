@@ -48,7 +48,7 @@ Run the main analysis and reporting pipeline:
 python main.py
 ```
 - By default, analyzes a set of major cities defined in [`Config.default_cities`](config.py).
-- Generates plots in `outputs/plots/` and a summary report in `outputs/summary_report.txt`.
+- Generates plots in `outputs/` and a summary report in `outputs/summary_report.txt`.
 
 #### Demo Mode
 
@@ -60,9 +60,9 @@ python demo.py
 ### 3. Outputs
 
 - **Plots:** Static PNGs for time series, decomposition, risk dashboards, comparative analysis, and forecasts (`outputs/plots/`).
-- **Interactive Dashboard:** HTML dashboard with Plotly (`outputs/plots/interactive_dashboard.html`).
+- **Interactive Dashboard:** HTML dashboard with Plotly (`outputs/interactive_dashboard.html`).
 - **Summary Report:** Text summary of key findings (`outputs/summary_report.txt`).
-- **Visual Summary:** Infographic-style summary (`outputs/plots/summary_report_visual.png`).
+- **Visual Summary:** Infographic-style summary (`outputs/summary_report_visual.png`).
 
 ## Key Components
 
